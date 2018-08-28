@@ -22,8 +22,7 @@ namespace Basics.CSharp.Interview
             HowDoseComplexTypeWorks(empObj1);
 
             Employee empObj2 = new Employee();
-            empObj2 = empObj1;
-            empObj2 = null;
+            empObj2 = empObj1;         
             Console.WriteLine("Class are by default refernce type and assign in the list<employee> or employee reselts in the change of other object");
             Console.WriteLine(empObj2.Name);
             Console.WriteLine(empObj2.Age);
@@ -51,7 +50,7 @@ namespace Basics.CSharp.Interview
 
         private static void HowDoseComplexTypeWorks(Employee emp)
         {
-            //emp = null;
+            //emp = null; - This will not change the calling funtion value
 
             //this will change in the calling function
             emp.Age = 31;

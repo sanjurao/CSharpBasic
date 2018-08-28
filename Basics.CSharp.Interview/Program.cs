@@ -12,7 +12,8 @@ namespace Basics.CSharp.Interview
     class Program
     {
         static void Main(string[] args)
-        {
+        {       
+            
             //Ref Type and value Type
             RefrenceType_ValueType refVal = new RefrenceType_ValueType();
             refVal.CheckRefValueType();
@@ -24,8 +25,11 @@ namespace Basics.CSharp.Interview
             //Inheritance
             Inheritance inObj = new Inheritance();
 
-            Console.ReadKey();
-        }                
+            //SealedClass
+            SealedClass SC = new SealedClass();
 
-    }    
+            Console.ReadKey();
+        }        
+
+    }
 }

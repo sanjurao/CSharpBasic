@@ -11,10 +11,10 @@ namespace Basics.CSharp.Interview
     {
         public Inheritance()
         {
-            Base b1 = new Base();
+            BaseClass b1 = new BaseClass();
             b1.fun1();
 
-            Base b2 = new Derv();
+            BaseClass b2 = new Derv();
             b2.fun1();
             b2.fun2();
             
@@ -24,7 +24,7 @@ namespace Basics.CSharp.Interview
             b3.fun2();
             b3.fun3();
 
-            Base b4 = new Derv2();
+            BaseClass b4 = new Derv2();
             b4.fun1();
             b4.fun2();
             //b4.fun3();
@@ -37,9 +37,9 @@ namespace Basics.CSharp.Interview
         }
     }
 
-    public class Base
+    public class BaseClass
     {
-        public Base()
+        public BaseClass()
         {
             Console.WriteLine("Base Constructor");
         }
@@ -51,12 +51,16 @@ namespace Basics.CSharp.Interview
         {
             Console.WriteLine("Base virtual fun1");
         }
+        private int abst = 0;
     }
 
-    public class Derv : Base
+    public class Derv : BaseClass
     {
+
         public Derv()
         {
+            BaseClass b = new BaseClass();
+           
             Console.WriteLine("Derv Constructor");
         }
 

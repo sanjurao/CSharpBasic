@@ -42,10 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckForTheOutput.cs" />
+    <Compile Include="FizzBuzzHackerRank.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RefrenceType_ValueType.cs" />
+    <Compile Include="SealedClass.cs" />
     <Compile Include="StaticClass.cs" />
   </ItemGroup>
   <ItemGroup>
