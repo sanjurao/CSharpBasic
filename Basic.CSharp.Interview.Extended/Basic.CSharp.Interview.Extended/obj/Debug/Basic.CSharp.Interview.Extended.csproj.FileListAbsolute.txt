@@ -1,0 +1,16 @@
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basic.CSharp.Interview.Extended.exe.config
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basic.CSharp.Interview.Extended.exe
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basic.CSharp.Interview.Extended.pdb
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basics.CSharp.Interview.exe
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basics.CSharp.Interview.pdb
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\obj\Debug\Basic.CSharp.Interview.Extended.csprojResolveAssemblyReference.cache
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\obj\Debug\Basic.CSharp.Interview.Extended.exe
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\obj\Debug\Basic.CSharp.Interview.Extended.pdb
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basic.CSharp.Interview.Extended.exe.config
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basic.CSharp.Interview.Extended.exe
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basic.CSharp.Interview.Extended.pdb
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basics.CSharp.Interview.exe
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\bin\Debug\Basics.CSharp.Interview.pdb
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\obj\Debug\Basic.CSharp.Interview.Extended.csprojResolveAssemblyReference.cache
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\obj\Debug\Basic.CSharp.Interview.Extended.exe
+C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Basic.CSharp.Interview.Extended\Basic.CSharp.Interview.Extended\obj\Debug\Basic.CSharp.Interview.Extended.pdb
