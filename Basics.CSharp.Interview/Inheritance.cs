@@ -43,6 +43,7 @@ namespace Basics.CSharp.Interview
         {
             Console.WriteLine("Base Constructor");
         }
+        
         public void fun1()
         {
             Console.WriteLine("Base fun1");

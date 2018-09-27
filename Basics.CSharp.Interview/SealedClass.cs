@@ -17,7 +17,6 @@ namespace Basics.CSharp.Interview
         {
             Console.WriteLine("Stratic Sealed Class COnstructor");
         }
-
         
     }
 

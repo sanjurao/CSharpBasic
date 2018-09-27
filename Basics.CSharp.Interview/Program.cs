@@ -28,6 +28,11 @@ namespace Basics.CSharp.Interview
             //SealedClass
             SealedClass SC = new SealedClass();
 
+            //Fid Series
+            FibbonaciSeriesProgm fb = new FibbonaciSeriesProgm(5);
+            fb.FibSeriesWay1();
+            fb.FibSeriesRecursive();
+
             Console.ReadKey();
         }        
 

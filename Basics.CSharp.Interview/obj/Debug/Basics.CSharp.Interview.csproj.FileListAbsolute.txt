@@ -9,4 +9,3 @@ C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Basics.CSharp.Int
 C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Basics.CSharp.Interview\obj\Debug\Basics.CSharp.Interview.pdb
 C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Basics.CSharp.Interview\bin\Debug\Basics.CSharp.Interview.exe
 C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Basics.CSharp.Interview\bin\Debug\Basics.CSharp.Interview.pdb
-C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Basics.CSharp.Interview\obj\Debug\Basics.CSharp.Interview.csprojResolveAssemblyReference.cache

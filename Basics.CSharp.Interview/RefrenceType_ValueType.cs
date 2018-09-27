@@ -17,11 +17,16 @@ namespace Basics.CSharp.Interview
             HowDoseRefTypeWork(ref val2);
             Console.WriteLine(val2);
 
+            string str = "1";
+            HowValueTypeWorks(str);
+            Console.WriteLine(str);
+
+
             //class are by default ref type
-            Employee empObj1 = new Employee { Name = "Sanju", Age = 30 };
+            Employee empObj1 = new Employee() { Name = "Sanju", Age = 30 };
             HowDoseComplexTypeWorks(empObj1);
 
-            Employee empObj2 = new Employee();
+            Employee empObj2 = new Employee() { Name = "Sanju1", Age = 31 };
             empObj2 = empObj1;         
             Console.WriteLine("Class are by default refernce type and assign in the list<employee> or employee reselts in the change of other object");
             Console.WriteLine(empObj2.Name);
@@ -46,6 +51,10 @@ namespace Basics.CSharp.Interview
         private static void HowValueTypeWorks(int val)
         {
             val = 15;
+        }
+        private static void HowValueTypeWorks(string val)
+        {
+            val = "15";
         }
 
         private static void HowDoseComplexTypeWorks(Employee emp)
