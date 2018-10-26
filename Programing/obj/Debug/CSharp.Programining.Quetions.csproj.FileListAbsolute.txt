@@ -6,3 +6,9 @@ C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Programing\bin\
 C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Programing\bin\Debug\ConsoleApplication1.exe
 C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Programing\bin\Debug\ConsoleApplication1.pdb
 C:\D\Personal\Career\Interview Materials\Basics.CSharp.Interview\Programing\obj\Debug\ConsoleApplication1.pdb
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Programing\bin\Debug\ConsoleApplication1.exe.config
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Programing\obj\Debug\ConsoleApplication1.exe
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Programing\obj\Debug\ConsoleApplication1.pdb
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Programing\bin\Debug\ConsoleApplication1.exe
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Programing\bin\Debug\ConsoleApplication1.pdb
+C:\D\Personal\Career\Interview Materials\Basic.CSharp.Concepts\Programing\obj\Debug\CSharp.Programining.Quetions.csprojResolveAssemblyReference.cache

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace Basics.CSharp.Interview
 {
 
-   
-    public static class StaticClass
+
+    public static class StaticClass : Object
     {
         //cannot have multiple static constructor
         static StaticClass()
@@ -36,7 +36,7 @@ namespace Basics.CSharp.Interview
 
     //}
 
-    public class normalClass 
+    public class normalClass  
     {
       
 

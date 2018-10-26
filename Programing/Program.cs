@@ -19,6 +19,17 @@ namespace ConsoleApplication1
             cmds.Add("UP");
             cmds.Add("UP");
             var res = MoveArrayPositionByDirection.max(4, cmds);
+
+            PrintDuplicateCharaterInString p = new PrintDuplicateCharaterInString();
+            p.printDuplicateCharInString("sanjunath");
+
+            GetNThPositionValFromPrimeNumbers prime = new GetNThPositionValFromPrimeNumbers();
+            prime.getNthPrimeNUmberVal(100);
+
+            MathematicalProblems m = new MathematicalProblems();
+            m.Add2NumberWithoutSymbol(5, 5);
+
+
         }       
         
     }

@@ -11,8 +11,11 @@ namespace Basics.CSharp.Interview
     {
         public Inheritance()
         {
+            BaseClass staticconstructorcheck = new BaseClass();
+            
             BaseClass b1 = new BaseClass();
             b1.fun1();
+            
 
             BaseClass b2 = new Derv();
             b2.fun1();
@@ -42,6 +45,11 @@ namespace Basics.CSharp.Interview
         public BaseClass()
         {
             Console.WriteLine("Base Constructor");
+        }
+
+        static BaseClass()
+        {
+            Console.WriteLine("Base static Constructor");
         }
         
         public void fun1()
