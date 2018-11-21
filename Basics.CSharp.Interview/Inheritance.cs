@@ -37,6 +37,11 @@ namespace Basics.CSharp.Interview
             b5.fun2();
             b5.fun3();
 
+
+           // Derv2 d1 = (Derv2)new BaseClass(); //Unable to cast object of type 'Basics.CSharp.Interview.BaseClass' to type 'Basics.CSharp.Interview.Derv2'.
+            //d1.fun1();
+            //d1.fun2();
+
         }
     }
 
@@ -73,7 +78,7 @@ namespace Basics.CSharp.Interview
             Console.WriteLine("Derv Constructor");
         }
 
-        public void fun1()
+        new public void fun1()
         {
             Console.WriteLine("Derive fun1");
         }
@@ -84,6 +89,10 @@ namespace Basics.CSharp.Interview
         }
 
         public void fun3()
+        {
+            Console.WriteLine("Derive fun1");
+        }
+        public void fun4()
         {
             Console.WriteLine("Derive fun1");
         }

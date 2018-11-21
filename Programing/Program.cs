@@ -10,6 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+
             List<string> cmds = new List<string>();
             cmds.Add("RIGHT");
             cmds.Add("RIGHT");
@@ -29,8 +30,25 @@ namespace ConsoleApplication1
             MathematicalProblems m = new MathematicalProblems();
             m.Add2NumberWithoutSymbol(5, 5);
 
+            GCD gcd = new GCD();
+            int[] arr = { 2, 3, 4, 5, 6 };
+            gcd.generalizedGCD(5, arr);
 
-        }       
-        
+            int[] a = { 6, 6, 3, 9, 3, 5, 1 };
+            DistinctPair d = new DistinctPair();
+            d.numberOfPairs(a, 12);
+
+            FindMaximumEvents fmax = new FindMaximumEvents();
+            List<string> l = new List<string>();
+            l.Add("5 7");
+            l.Add("2 4");
+            l.Add("5 6");
+            l.Add("5 7");       
+            fmax.findMaximumEvents(l);
+
+            StringIsEqualOnSwap swap = new StringIsEqualOnSwap();
+            swap.CheckStringIsEqual("1234567", "34125");
+            swap.CheckStringIsEqual("12345", "34125");
+        }
     }
 }

@@ -33,6 +33,16 @@ namespace Basics.CSharp.Interview
             fb.FibSeriesWay1();
             fb.FibSeriesRecursive();
 
+
+            // AbstractClass a = new AbstractClass(); // Error. Cannot instantiate
+            // a.IdentifyDerived(); // an abstract class.
+            DerivedClass b = new DerivedClass(); // Instantiate the derived class.
+            b.IdentifyBase(); // Call the inherited method.
+            b.IdentifyDerived(); // Call the "abstract" method.
+
+            ExceptionHandling ex = new ExceptionHandling();
+            ex.Check();
+
             Console.ReadKey();
         }        
 

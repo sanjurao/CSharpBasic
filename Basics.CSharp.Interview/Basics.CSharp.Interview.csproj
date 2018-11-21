@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract.cs" />
     <Compile Include="AccessModifiers.cs" />
     <Compile Include="CheckForTheOutput.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="ExceptionHandling.cs" />
     <Compile Include="FibbonaciSeriesProgm.cs" />
     <Compile Include="FizzBuzzHackerRank.cs" />
     <Compile Include="GenericMethods.cs" />
@@ -56,6 +58,7 @@
     <Compile Include="SealedClass.cs" />
     <Compile Include="StaticClass.cs" />
     <Compile Include="ValueTypeReferenceType.cs" />
+    <Compile Include="Virstual.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

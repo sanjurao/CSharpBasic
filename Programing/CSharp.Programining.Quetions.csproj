@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dimenssion.cs" />
+    <Compile Include="DistinctPair.cs" />
     <Compile Include="findBombDiffusionCode.cs" />
+    <Compile Include="FindMaximumEvents.cs" />
+    <Compile Include="GCD.cs" />
     <Compile Include="GetNThPositionValFromPrimeNumbers.cs" />
     <Compile Include="MathematicalProblems.cs" />
     <Compile Include="MoveArrayPositionByDirection.cs" />
@@ -51,7 +54,9 @@
     <Compile Include="PrintDuplicateCharaterInString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringIsEqualOnSwap.cs" />
     <Compile Include="StringMerge.cs" />
+    <Compile Include="TwoIntegersSumToTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
