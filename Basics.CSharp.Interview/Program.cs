@@ -12,8 +12,18 @@ namespace Basics.CSharp.Interview
     class Program
     {
         static void Main(string[] args)
-        {       
-            
+        {
+            int r;
+            int n = 3000;
+            while(n > 0)
+            {
+                r = n % 10;
+                n = n / 10;
+                Console.WriteLine(r);
+                --n;
+            }
+
+
             //Ref Type and value Type
             RefrenceType_ValueType refVal = new RefrenceType_ValueType();
             refVal.CheckRefValueType();
@@ -24,6 +34,9 @@ namespace Basics.CSharp.Interview
 
             //Inheritance
             Inheritance inObj = new Inheritance();
+
+            MultipleInheritance multipleInheritanceobj = new MultipleInheritance();
+            multipleInheritanceobj.test();
 
             //SealedClass
             SealedClass SC = new SealedClass();
@@ -41,7 +54,7 @@ namespace Basics.CSharp.Interview
             b.IdentifyDerived(); // Call the "abstract" method.
 
             ExceptionHandling ex = new ExceptionHandling();
-            ex.Check();
+            var op = ex.Check();
 
             Console.ReadKey();
         }        

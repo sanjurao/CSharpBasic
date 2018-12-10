@@ -41,12 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmazonCoding.cs" />
     <Compile Include="Dimenssion.cs" />
     <Compile Include="DistinctPair.cs" />
     <Compile Include="findBombDiffusionCode.cs" />
     <Compile Include="FindMaximumEvents.cs" />
     <Compile Include="GCD.cs" />
     <Compile Include="GetNThPositionValFromPrimeNumbers.cs" />
+    <Compile Include="HoneyWell.cs" />
     <Compile Include="MathematicalProblems.cs" />
     <Compile Include="MoveArrayPositionByDirection.cs" />
     <Compile Include="NextGenaAllPrograms.cs" />
@@ -60,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="sampleInput.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -49,6 +49,31 @@ namespace ConsoleApplication1
             StringIsEqualOnSwap swap = new StringIsEqualOnSwap();
             swap.CheckStringIsEqual("1234567", "34125");
             swap.CheckStringIsEqual("12345", "34125");
+
+            AmazonCoding AC = new AmazonCoding();
+            //int[,] a = new int[3, 2] { { 1, 2 }, { 3, 4 }, { 1, -1 } };
+
+            int[,] intArray = new int[3, 2]{ 
+                                { 1, 2 }, { 3, 4 }, { 1, -1 }
+                            };
+
+            AC.Coding1(3, intArray, 2);
+
+            int maxTravelDist = 7000;                     
+            List<List<int>> fwdRouteList = new List<List<int>>
+            {   new List<int>(){1,2000},
+                new List<int>(){2,4000},
+                new List<int>(){3,6000},
+            };
+            List<List<int>> retRouteList = new List<List<int>>
+            {   new List<int>(){1,2000},
+            };
+            AC.coding2(maxTravelDist, fwdRouteList, retRouteList);
+
+
+            HoneyWell Hc = new HoneyWell();
+
+
         }
     }
 }

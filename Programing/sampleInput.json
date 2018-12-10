@@ -1,0 +1,36 @@
+﻿{
+    "report":[
+        {
+            "enrollment": "rit2011001",
+            "name": "Julia",
+            "subject":[
+                {
+                    "code": "NLP",
+                    "grade": "A"
+                },
+                {
+                    "code": "DSA",
+                    "grade": "A"
+                }
+            ]
+        },
+        {
+            "enrollment": "rit2011020",
+            "name": "Samantha",
+            "subject":[
+                {
+                    "code": "COM",
+                    "grade": "B"
+                },
+                {
+                    "code": "OOM",
+                    "grade": "A"
+                },
+                {
+                    "code": "DSA",
+                    "grade": "A"
+                }
+            ]
+        }
+    ]
+}

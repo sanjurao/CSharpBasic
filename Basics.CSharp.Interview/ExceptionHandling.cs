@@ -8,7 +8,7 @@ namespace Basics.CSharp.Interview
 {
     public class ExceptionHandling
     {
-        public void Check()
+        public int Check()
         {
             int a = 0;
             try
@@ -16,6 +16,7 @@ namespace Basics.CSharp.Interview
                 a = 1;
                 Console.WriteLine(a);
                 throw new Exception();
+                return a;
 
             }
             catch (Exception ex)
@@ -23,14 +24,15 @@ namespace Basics.CSharp.Interview
                 a = 2;
 
                 Console.WriteLine(a);
+                return a;
 
                 //throw ex;
             }
             finally
             {
                 a = 3;
-
                 Console.WriteLine(a);
+                
             }
         }
 
